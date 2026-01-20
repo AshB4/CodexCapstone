@@ -1,0 +1,33 @@
+// Button components for consistent UI
+.btn {
+  background-color: $primary-color;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; // Smooth color change on interaction
+}
+
+// Responsive buttons
+@media (max-width: 768px) {
+  .btn, .btn-purple {
+    width: 100%; // Full width on mobile for touch
+    padding: 15px; // Larger padding for touch targets
+  }
+}
+
+// Advanced purple button variant with hover effects
+.btn-purple {
+  @extend .btn; // Inherits base button styles
+  background-color: purple;
+  border: 2px solid darken(purple, 20%); // Darker border for contrast
+
+  &:hover {
+    background-color: lighten(purple, 10%); // Lightens on hover
+    transform: scale(1.05); // Slight zoom for interactivity
+  }
+
+  &:active {
+    background-color: darken(purple, 10%); // Darkens when pressed
+  }
+}

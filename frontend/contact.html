@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Codex Academy</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Codex Academy</a>
+
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTACT -->
+  <section class="py-5">
+    <div class="container">
+      <h1 class="text-center mb-4">Contact Us</h1>
+
+      <form id="contactForm" class="mx-auto" style="max-width:600px;">
+        <input name="full_name" class="form-control mb-3" placeholder="Full Name" required />
+        <input name="email" type="email" class="form-control mb-3" placeholder="Email" required />
+        <textarea name="message" class="form-control mb-3" rows="4" placeholder="Message"></textarea>
+        <button type="submit" class="btn btn-primary w-100">Submit</button>
+      </form>
+
+      <p id="successMsg" class="text-success text-center mt-3 d-none">
+        Thanks! We’ll be in touch.
+      </p>
+    </div>
+  </section>
+   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+ <script src="../backend/supabase.js"></script>
+   <script src="../backend/apiManager.js"></script>
+  <script src="../backend/contactForm.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>

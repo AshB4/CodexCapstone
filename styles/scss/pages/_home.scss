@@ -1,0 +1,18 @@
+// Page-specific styles for home page
+.home {
+  font-family: $font-family; // Applies base font family
+}
+
+// Responsive styles for home page content
+@media (max-width: 768px) {
+  .home {
+    padding: 10px; // Reduced padding on mobile
+    text-align: center; // Center text for readability
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .home {
+    padding: 20px; // Standard padding on tablets
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "codexcapstone",
+  "version": "1.0.0",
+  "description": "Codex Academy is a simple, professional, multi-page web application designed to showcase available coding programs and allow prospective students to submit inquiries. The site focuses on clarity, usability, and real-world data integration, demonstrating how a frontend application can dynamically display content and manage leads using Supabase.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass styles/scss/style.scss styles.css --style compressed --no-source-map"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.97.2"
+  }
+}

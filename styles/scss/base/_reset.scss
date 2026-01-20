@@ -1,0 +1,13 @@
+// Base reset for consistent styling across browsers
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; // Ensures padding/border included in width
+}
+
+// Responsive images to prevent overflow on small screens
+img {
+  max-width: 100%; // Scales images to container width
+  height: auto; // Maintains aspect ratio
+  display: block; // Removes inline spacing
+}

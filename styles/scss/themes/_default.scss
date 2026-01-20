@@ -1,0 +1,15 @@
+// Default theme for light mode
+body {
+  background-color: #fff; // White background
+  color: #000; // Black text for contrast
+}
+
+// Override Bootstrap's bg-primary to use our deep purple
+.bg-primary {
+  background-color: $primary-color !important;
+}
+
+// Specific override for navbar
+.navbar.bg-primary {
+  background-color: $primary-color !important;
+}

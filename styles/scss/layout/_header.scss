@@ -1,0 +1,20 @@
+// Layout styles for header section
+.header {
+  background-color: $secondary-color; // Uses secondary color variable
+  padding: 20px; // Spacing for header content
+}
+
+// Responsive header for mobile devices
+@media (max-width: 768px) {
+  .header {
+    padding: 10px; // Reduced padding on small screens
+    text-align: center; // Center content
+  }
+}
+
+// Responsive for tablets
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header {
+    padding: 15px; // Medium padding
+  }
+}

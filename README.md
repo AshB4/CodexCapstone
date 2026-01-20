@@ -74,13 +74,13 @@ Codex Academy is a simple, professional, multi-page web application designed to 
 * Professional documentation
 
 ## Daily Tracker
-- **Day 1 - January 13, 2026:** Initialized project with HTML pages (index.html, programs.html, contact.html). Set up basic folder structure and installed Sass via npm. No major issues—focused on planning the multipage layout.
+- **Day 1 - January 12  , 2026:** Initialized project with HTML pages (index.html, programs.html, contact.html). Set up basic folder structure and installed Sass via npm. No major issues—focused on planning the multipage layout.
   
-- **Day 2 - January 14, 2026:** Implemented SCSS 7-1 architecture (abstracts, base, components, etc.) and compiled to CSS. Added basic variables and button styles. Encountered Sass deprecation warnings; resolved by noting for future updates.
+- **Day 2 - January 13, 2026:** Implemented SCSS 7-1 architecture (abstracts, base, components, etc.) and compiled to CSS. Added basic variables and button styles. Encountered Sass deprecation warnings; resolved by noting for future updates.
   
-- **Day 3 - January 15, 2026:** Integrated Supabase API in backend JS files (supabase.js, programCards.js). Tested data fetching for programs—used map() for data transformation. Added safe DOM updates with textContent.
+- **Day 3 - January 14, 2026:** Integrated Supabase API in backend JS files (supabase.js, programCards.js). Tested data fetching for programs—used map() for data transformation. Added safe DOM updates with textContent.
   
-- **Day 4 - January 16, 2026:** Worked on responsive design with custom media queries in SCSS. Added purple button variant for advanced styling. Compiled without source maps to clean output.
+- **Day 4 - January 19, 2026:** Worked on responsive design with custom media queries in SCSS. Added purple button variant for advanced styling. Compiled without source maps to clean output.
   
-- **Day 5 - January 17, 2026:** Added JS class for API management (e.g., SupabaseAPI class). Updated README with architecture overview. Reflected on balancing minimal effort with rubric requirements.
+- **Day 5 - January 20, 2026:** Added JS class for API management (e.g., SupabaseAPI class). Updated README with architecture overview. Reflected on balancing minimal effort with rubric requirements.
 Overall Reflection: This project reinforced full-stack basics, especially API integration and responsive SCSS. Biggest challenge was ensuring all rubric items without overcomplicating.

@@ -7,7 +7,7 @@ Codex Academy is a simple, professional, multi-page web application designed to 
 
 ## Live Site and Repository
 
-* **Live Site:** 
+* **Live Site:** https://ashley-b-codex-capstone.netlify.app/
 * **GitHub Repository:** https://github.com/AshB4/CodexCapstone
 
 ---

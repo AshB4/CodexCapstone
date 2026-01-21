@@ -1,4 +1,5 @@
 // Button components for consistent UI
+@use 'sass:color';
 .btn {
   background-color: $primary-color;
   color: white;
@@ -20,14 +21,14 @@
 .btn-purple {
   @extend .btn; // Inherits base button styles
   background-color: purple;
-  border: 2px solid darken(purple, 20%); // Darker border for contrast
+  border: 2px solid color.adjust(purple, $lightness: -20%); // Darker border for contrast
 
   &:hover {
-    background-color: lighten(purple, 10%); // Lightens on hover
+    background-color: color.adjust(purple, $lightness: 10%); // Lightens on hover
     transform: scale(1.05); // Slight zoom for interactivity
   }
 
   &:active {
-    background-color: darken(purple, 10%); // Darkens when pressed
+    background-color: color.adjust(purple, $lightness: -10%); // Darkens when pressed
   }
 }

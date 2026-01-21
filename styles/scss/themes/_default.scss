@@ -1,4 +1,5 @@
 // Default theme for light mode
+@use '../abstracts/variables' as *;
 body {
   background-color: #fff; // White background
   color: #000; // Black text for contrast

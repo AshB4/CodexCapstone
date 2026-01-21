@@ -1,20 +1,20 @@
 // Abstracts
-@import 'abstracts/variables';
+@use 'abstracts/variables';
 
 // Base
-@import 'base/reset';
+@use 'base/reset';
 
 // Components
-@import 'components/buttons';
+@use 'components/buttons';
 
 // Layout
-@import 'layout/header';
+@use 'layout/header';
 
 // Pages
-@import 'pages/home';
+@use 'pages/home';
 
 // Themes
-@import 'themes/default';
+@use 'themes/default';
 
 // Vendors
-@import 'vendors/external';
+@use 'vendors/external';

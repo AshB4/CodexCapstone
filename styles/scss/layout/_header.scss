@@ -1,4 +1,5 @@
 // Layout styles for header section
+@use '../abstracts/variables' as *;
 .header {
   background-color: $secondary-color; // Uses secondary color variable
   padding: 20px; // Spacing for header content

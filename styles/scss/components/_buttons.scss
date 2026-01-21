@@ -1,5 +1,6 @@
 // Button components for consistent UI
 @use 'sass:color';
+@use '../abstracts/variables' as *;
 .btn {
   background-color: $primary-color;
   color: white;
